@@ -19,14 +19,14 @@
     font-size: 16px;
     line-height: 24px;
     color: #000000;
-    transition: 0.3s;
-    
+    border-radius: 33px;
 }
 .nav .nav-item .nav-link:hover{
     background-color: #21B573;
     border-radius: 33px;
     padding: 12px, 28px, 12px, 28px;
     color: #FFFFFF;
+    transition: 0.5s;
 }
 .bener-text{
     margin-top: 120px;
@@ -86,7 +86,7 @@ p{
 .book-section{
     background-color: #E5E5E5;
     width: 100%;
-    height: 350px;
+    height: 360px;
    
 }
 .book-img{
@@ -132,4 +132,78 @@ h4{
 }
 .box small{
     color: #585859;
+}
+.course-section{
+    width: 100%;
+    height: 650px;
+    background-color: #F0FFF0;
+}
+
+.course-text{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(65, 57, 96, 1);
+}
+.card{
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
+}
+.card-hight{
+    height: 483px;
+}
+.col-sm-5{
+    float: right;
+}
+.card-img-top{
+    width: 312px;
+    height: 215px;
+    margin: auto;
+    margin-top: 24px;
+}
+.text-muted{
+    padding: 2px 3px;
+    color: rgba(88, 88, 89, 1);
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.cal-img{
+    width: 24px;
+    height: 24px;
+}
+
+.testimonial-section{
+    width: 100%;
+    height: 400px;
+    background-color: #E5E5E5;
+}
+.testimonial-text{
+    padding-top: 60px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    color: rgba(0, 0, 0, 1);
+}
+.testimonial-box{
+    margin-top: 30px;
+}
+.test-img{
+    width: 120px;
+    height: 120px;
+}
+.test-text {
+    height: 90px;
+    width: 580px;
+    margin-left: 40px;
+    color: rgba(0, 0, 0, 1);
+}
+.test-text p{
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 30px;
 }

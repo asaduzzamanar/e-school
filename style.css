@@ -86,14 +86,50 @@ p{
 .book-section{
     background-color: #E5E5E5;
     width: 100%;
-    height: 500px;
+    height: 350px;
    
 }
 .book-img{
     height: 85px;
     width: 66px;
 }
+.student-img{
+    width: 80px;
+    height: 83px;
+}
+.test-img{
+    width: 75px;
+    height: 80px;
+}
+.students-img{
+    width: 68px;
+    height: 76px;
+}
 .box{
     background: #F8FFFB;
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    margin-top: 42px;
+    text-align: center;
+}
+.box:hover{
+    background: #FFFFFF;
+    transition: .4s;
+    cursor: pointer;
+    box-shadow: 0px 20px 40px 0px rgba(58, 57, 57, 0.3);
 
+}
+.student-img, h4{
+    text-align: center;
+    padding: 0;
+}
+h4{
+    margin-top: 35px;
+    font-weight: bold;
+    color: #413960;
+    font-family: Poppins;
+}
+.box small{
+    color: #585859;
 }
